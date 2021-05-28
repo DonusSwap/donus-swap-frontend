@@ -57,6 +57,8 @@ export const fetchPoolsTotalStaking = async () => {
     }
   })
 
+  console.log({ callsNonBnbPools, callsBnbPools })
+
   const nonBnbPoolsTotalStaked = await multicall(cakeABI, callsNonBnbPools)
   const bnbPoolsTotalStaked = await multicall(wbnbABI, callsBnbPools)
 

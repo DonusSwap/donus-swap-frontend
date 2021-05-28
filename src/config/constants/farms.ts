@@ -10,7 +10,8 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '0xA80350b7140edFD5F2B36A3da1bc529c6084132b',
-      56: '',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      4: '0xDe3E8a6d5e7AfE1F0De36b16DF86E0e4610588Bb',
     },
     token: tokens.syrup,
     quoteToken: tokens.wbnb,
@@ -43,7 +44,8 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       97: '0xCB64872a27dB9672a48dcAdf4E37BAbe5F0bB090',
-      56: '',
+      56: '0xFB7E9FE9D13561AdA7131Fa746942a14F7dd4Cf6',
+      4: '0x1B53347C744bA62005806F3C42fFC8b7462A46ec',
     },
     token: tokens.cake,
     quoteToken: tokens.wbnb,
@@ -53,11 +55,13 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
-      56: '',
+      56: '0x9bdEdb0c876fC0Da79D945DF28942b898Af89Fc7',
+      4: '0xb6dd8e98cc609b711b5c1d4e2a98c3053e880075',
     },
     token: tokens.busd,
     quoteToken: tokens.wbnb,
   },
+
   // {
   //   pid: 378,
   //   lpSymbol: 'ONE-BUSD LP',

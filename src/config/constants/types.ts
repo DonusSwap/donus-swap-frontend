@@ -1,10 +1,18 @@
 import { TranslatableText } from 'state/types'
 
 export interface Address {
-  97?: string
-  56: string
+  97?: string // bsctestnet
+  56: string // bsc
+  4: string // rinkby
 }
 
+export enum QuoteToken {
+  'CAKE' = 'CAKE',
+  'BNB' = 'wBNB',
+  'BUSD' = 'BUSD',
+  'UST' = 'UST',
+  'ETH' = 'ETH',
+}
 export interface Token {
   symbol: string
   address?: Address

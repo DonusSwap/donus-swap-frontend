@@ -8,6 +8,7 @@ const tokens = {
     address: {
       56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      4: '0xDe3E8a6d5e7AfE1F0De36b16DF86E0e4610588Bb',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
@@ -431,6 +432,7 @@ const tokens = {
     address: {
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
       97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+      4: '0xdf032bc4b9dc2782bb09352007d4c57b75160b15',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
@@ -575,6 +577,7 @@ const tokens = {
     address: {
       56: '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
       97: '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
+      4: '0x0e7290bb125EC3C9b11d7CA6130C0EA38443e88b',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
@@ -602,6 +605,7 @@ const tokens = {
     address: {
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
       97: '',
+      4: '0xb1e9c21c30b7d827af3c1d6078e199f58996af61',
     },
     decimals: 18,
     projectLink: 'https://www.paxos.com/busd/',
@@ -1286,6 +1290,7 @@ const tokens = {
     address: {
       56: '0x04baf95fd4c52fd09a56d840baee0ab8d7357bf0',
       97: '',
+      4: '',
     },
     decimals: 18,
     projectLink: 'https://www.bigone.com/',
